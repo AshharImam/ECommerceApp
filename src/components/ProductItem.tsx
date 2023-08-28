@@ -12,7 +12,7 @@ const ProductItem = ({
   isItemInBasket,
 }: ProductItemProps): JSX.Element => {
   return (
-    <View style={styles.productContainer}>
+    <View style={styles.productContainer} testID={`product-item-${product.id}`}>
       <Image source={{uri: product.img}} style={styles.image} />
       <View style={styles.rightContainer}>
         <Text>{product.name}</Text>

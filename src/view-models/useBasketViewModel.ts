@@ -1,7 +1,5 @@
 import {useCallback} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {apis, baseUrl} from '../api';
-import ProductItemModel from '../models/ProductItemModel';
 import {
   addToBasket,
   removeFromBasket,

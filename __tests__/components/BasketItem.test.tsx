@@ -1,8 +1,8 @@
 import React from 'react';
 import {render, fireEvent} from '@testing-library/react-native';
 import BasketItem from '../../src/components/BasketItem';
-import { expect, test } from '@jest/globals';
-import { jest } from '@jest/globals';
+import {expect, test} from '@jest/globals';
+import {jest} from '@jest/globals';
 const mockItem = {
   product: {
     img: 'https://example.com/image.jpg',

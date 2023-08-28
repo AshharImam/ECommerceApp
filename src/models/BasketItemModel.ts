@@ -1,10 +1,9 @@
-import ProductItemModel from "./ProductItemModel";
+import ProductItemModel from './ProductItemModel';
 
 interface BasketItemModel {
-    productId: number;
-    quantity: number;
-    product: ProductItemModel
-  }
-  
-  export default BasketItemModel;
-  
+  productId: number;
+  quantity: number;
+  product: ProductItemModel;
+}
+
+export default BasketItemModel;
